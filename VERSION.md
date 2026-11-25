@@ -1,18 +1,12 @@
-# Version: [AGENT NAME]
+# Version
 
-**Current version:** v0.1 (draft, mode Off)
+**Live now:** none (draft, mode Off)
 
-Every live change is a new version, newest first. Drafts before go live are v0.x. Go live is v1.
-The git commit holds the full diff. This file says what changed and why.
+Newest first. Drafts are v0.x. Go live is v1.
 
-## v0.1 - YYYY-MM-DD - Draft
-- Created from the course agent repo.
-- Context from: [the sources listed in plan/CONTEXT-CHECKLIST.md]
-- Live: nothing yet.
-
-<!-- Copy this for every new version:
+<!-- Copy for every version:
 ## vN - YYYY-MM-DD - [short title]
-- What changed: [the block or line, before and after]
-- Why: [the real thread or the client's words that showed it]
-- Checked: [read back exact, and what to watch for on the next real lead]
+- What changed: [before and after]
+- Why: [the real thread or the client's words]
+- Watching for: [what to check on the next real lead]
 -->
