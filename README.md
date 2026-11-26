@@ -26,7 +26,7 @@ Your token never goes in a file, and never goes to GitHub.
 | `custom-values/` | One file per custom value, named by its token (`paid_lead_first_reply.md`). Holds exactly what goes in GHL. |
 | `knowledge-base/` | `knowledge-base.json`: direct question, direct answer. |
 | `workflows/` | One file per workflow: trigger, steps in order, settings, ids. |
-| `snapshots/` | What was live before each change (`YYYY-MM-DD-<what>.json`). How a change gets undone. |
+| `backups/` | A copy of what was live in GHL right before each change (`YYYY-MM-DD-<what>.json`). How a change gets undone, even if someone edited it in GHL by hand. |
 | `VERSION.md` | The version that is live now, and what each version changed. |
 | `CHANGELOG.md` | Every change pushed to the live account, with how to undo it. |
 
@@ -86,7 +86,7 @@ in the GHL UI; the API cannot make them.
 ## Always
 1. **Ask before you build.** Work through the plan with the builder one question at a time. Never invent a line, a
    price, a fact or a rule. A gap gets written down as a gap.
-2. **Read before you write.** Before any change to the live account, read what is there and save it to `snapshots/`.
+2. **Read before you write.** Before any change to the live account, read what is there and save it to `backups/`.
 3. **Show it, then ask.** Show the exact change and wait for the builder's yes for THAT change.
 4. **Read back after every write.** Wait 5 seconds, read it back, and confirm it matches the repo exactly.
 5. **Never delete without a named yes.** Name it, its id, what it holds and what uses it. Wait for a yes on that item.
@@ -125,7 +125,7 @@ activity). Never test on a phone number a workflow notification sends to.
 3. Check what the real person does in `plan/real-conversations/` before inventing a fix.
 4. Propose the smallest change as before and after text. One decision at a time.
 5. Hold it while a real lead is mid conversation.
-6. Snapshot, write, wait 5 seconds, read back.
+6. Back up, write, wait 5 seconds, read back.
 7. `CHANGELOG.md`, `VERSION.md`, commit, push.
 8. Watch the next real lead for that exact fix.
 
